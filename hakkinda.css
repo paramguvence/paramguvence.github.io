@@ -1,0 +1,75 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Montserrat;
+    background-color:#089a9a;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    
+ 
+ }
+ *{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+ }
+ .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.text-uppercase{
+    text-transform:uppercase;
+}
+#logo-box h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    color: #fff;
+}
+#container {
+    padding: 20px;
+    background-color: #1ac0a2;
+}
+#container ul li  {
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+#container ul li {
+    letter-spacing: .2rem;
+
+}
+#container ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: color .3s;
+}
+#container ul li{
+    list-style: none;
+    margin-right: 20px;
+    
+    
+}
+#container ul li a:hover{
+    color: antiquewhite;
+}
+#baslik h1 {
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 30px;
+}
+#hakkinda p{
+    color: antiquewhite;
+    margin-top: 30px;
+
+}
+#hakkinda a{
+    color: aliceblue;
+   
+}
